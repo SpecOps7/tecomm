@@ -7,8 +7,14 @@
     margin: 10px;
     padding: 20px;
     width: 100%;
-    background-color: white;
-    z-index: 1;
+    
+}
+
+.product__infoTitle{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color:white;
 }
 
 .product__rating {
@@ -31,11 +37,16 @@
     margin-bottom: 15px;
 }
 
-.product > button {
-    background-color: #f0c14b;
-    border: 1px solid;
-    border-color: #a88734 #9c7e31 #846a29;
-    color: #111;
+.productInfo__infoReserveButton {
+    background-color: #b91717;
+    border: 1px solid black;
+    width: 49%;
+    color: white;
     margin-top: 10px;
 
+}
+
+.productInfo__infoReserve{
+    display: flex;
+    justify-content: center;
 }

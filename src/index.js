@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { StateProvider } from './StateProvider';
 import reducer, { initialState } from './reducer';
+import './Maxellight-owvKo.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

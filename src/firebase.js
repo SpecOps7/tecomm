@@ -2,14 +2,14 @@ import firebase from "firebase";
 
 
 const firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyC4SrSZxU0Kd4RLPI7tikT2MMzEWh0bLVM",
-    authDomain: "ecomm-19456.firebaseapp.com",
-    databaseURL: "https://ecomm-19456.firebaseio.com",
-    projectId: "ecomm-19456", 
-    storageBucket: "ecomm-19456.appspot.com",
-    messagingSenderId: "31874769991",
-    appId: "1:31874769991:web:685d9b6e05009a2af23d62",
-    measurementId: "G-K88N935V88"
+    apiKey: "AIzaSyA0kx2k0jxBXGSR4twtoUTdmkpy6IrIx5U",
+    authDomain: "cyber-t.firebaseapp.com",
+    databaseURL: "https://cyber-t.firebaseio.com",
+    projectId: "cyber-t",
+    storageBucket: "cyber-t.appspot.com",
+    messagingSenderId: "504886341853",
+    appId: "1:504886341853:web:c27154ab3041f791daab34",
+    measurementId: "G-KWPND7MNYM"
 
 });
 

@@ -8,18 +8,15 @@ function Checkout() {
 
   return (
     <div className="checkout">
-      <img
-        className="checkout__ad"
-        src="https://images-na.ssl-images-amazon.com/images/G/01/credit/img16/CCMP/newstorefront/YACC-desktop-prime-banner3.png"
-      />
+
       {basket?.length === 0 ? (
         <div>
-          <h2>Your shopping basket is empty</h2>
-          <p>You have no items in your basket.</p>
+          <h2 className="checkout__title">Your reservation is empty</h2>
+          <p className="checkout__title">You have no reservations.</p>
         </div>
       ) : (
         <div>
-          <h2 className="checkout_title">Your Shopping Basket</h2>
+          <h2 className="checkout__title">Your Whips</h2>
 
           {/* List out all the checkout products */}
           {basket.map(item => 
